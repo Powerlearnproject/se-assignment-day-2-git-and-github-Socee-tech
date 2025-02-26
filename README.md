@@ -18,15 +18,20 @@ as sensitive information can be leaked out to every one.
 private repository on the other hand is restricted to the repository owner, its advantage is that data security is high but its limited fro accessing the external contribution from other contributors.
 
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
-After creating your repository, add the file that you are going to be working with, the on the top right corner ther's a green button saying commit, click it and in the dialog box that will appear, at the bottom right corner there's the same button again, click it to commit your changes.
+After creating your repository, add the file that you are going to be working with, the on the top right corner there's a green button saying commit, click it and in the dialog box that will appear, at the bottom right corner there's the same button again, click it to commit your changes.
 A commit is a snapshot of your work at a specific time, they store the different versions of your project enaling you torevert back to the version that you require if need be.
 
 ## How does branching work in Git, and why is it an important feature for collaborative development on GitHub? Discuss the process of creating, using, and merging branches in a typical workflow.
 Branching in Git allows the project to be split into different sections that are called branches which allows developers work on different features at the same time making it crutial in collaborative development
+while the original project remains intact.
+to create a branch we use the git command git branch branch_name
+to use the created branch we use the git command git checkout branch_name
+and to merge it into the main project we use the git command  git merge branch_name
 
 
 ## Explore the role of pull requests in the GitHub workflow. How do they facilitate code review and collaboration, and what are the typical steps involved in creating and merging a pull request?
 pull request allows developers to propose changes, review code, discuss improvements, and merge modifications into the main codebase. pull request allow team members to review the proposed changes before merging them into the main branch.
+To create and merge a pull request, on github there is a green button that says compare and pull request click it, to take yout to another window where you will add your description then click on the button that says create pull request and head down and click the button that says merge.
 
 ## Discuss the concept of "forking" a repository on GitHub. How does forking differ from cloning, and what are some scenarios where forking would be particularly useful?
 forking means creating a personal copy of someone else's repository under your GitHub account. cloning Creates a local copy of a repository on your computer. This would be usefull when experimenting the project without affecting the original project.
